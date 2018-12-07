@@ -2,9 +2,9 @@
 
 This is an example of an Oracle for the Ethereum blockchain which runs on the Ropsten testnet.
 
-First a contract is compiled and runned using Remix on Ropsten testnet. (This part is done and is not included in this project)
+First a contract is compiled and runned using [Remix](https://remix.ethereum.org) on [Ropsten](https://ropsten.etherscan.io) testnet. (This part is done and is not included in this project)
 
-Remix can use MetaMask's generated address in order to initiate the contract.
+Remix can use [MetaMask](https://metamask.io/)'s generated address in order to initiate the contract.
 
 ### The Contract Code
 
