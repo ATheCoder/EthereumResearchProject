@@ -40,6 +40,8 @@ let newContract = new web3.eth.Contract([
 	}
 ], '0x1719380e48a45b85f92fc688f78161b19d59337e')
 
+//No privateKey is needed here because we are just listening for events.
+
 newContract.events.transactionIsDone((err, events) => {
     console.log(err)
     console.log(events)

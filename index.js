@@ -40,9 +40,7 @@ let newContract = new web3.eth.Contract([
 	}
 ], '0x1719380e48a45b85f92fc688f78161b19d59337e')
 
-web3.eth.accounts.wallet.add('0xEE27037D33753C5047A845A05721478A9BE5C4616BB606C055603456083F1213')
-
-//web3.eth.accounts.wallet.add('0x4F3CB73A514919D5C9AD3AE8E36891D3F185694EFB528D2B53D04CD4E5E2EAD8')
+web3.eth.accounts.wallet.add('0xEE27037D33753C5047A845A05721478A9BE5C4616BB606C055603456083F1213') //This is the PrivateKey of the Contract Creator's Wallet.
 
 newContract.methods.makeTransactionDone().send({from: '0xAC411737801906d6b720fcd59B0FC3665519bE91', gasPrice: '1000000000', gas: '1000000'},(err, result) => {
     console.log(err)
