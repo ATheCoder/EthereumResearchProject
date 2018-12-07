@@ -6,7 +6,7 @@ First a contract is compiled and runned using Remix on Ropsten testnet. (This pa
 
 Remix can use MetaMask's generated address in order to initiate the contract.
 
-# The Contract Code
+### The Contract Code
 
 ```
 pragma solidity ^0.5.1;
